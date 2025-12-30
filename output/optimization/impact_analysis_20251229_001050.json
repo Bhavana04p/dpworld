@@ -1,0 +1,36 @@
+{
+  "impact": {
+    "before": {
+      "avg_delay_risk": 0.20495769196147265,
+      "high_risk_windows": 0,
+      "avg_yard_util": 0.7063589551466449,
+      "avg_truck_wait": 47.20343592394922,
+      "total_cranes_used": 0
+    },
+    "after": {
+      "avg_delay_risk": 0.23399416221332298,
+      "high_risk_windows": 0,
+      "avg_yard_util": 0.7965217391304347,
+      "avg_truck_wait": 42.4830923315543,
+      "total_cranes_used": 276
+    },
+    "improvements": {
+      "delay_risk_reduction_pct": -14.167055636686483,
+      "high_risk_reduction": 0,
+      "yard_util_improvement_pct": -12.764442685528257,
+      "truck_wait_improvement_pct": 9.999999999999993
+    }
+  },
+  "config": {
+    "max_available_cranes": 20,
+    "min_cranes_per_window": 2,
+    "safe_yard_utilization": 0.8,
+    "max_yard_utilization": 0.95,
+    "risk_weight": 10.0,
+    "congestion_weight": 5.0,
+    "resource_cost_weight": 1.0,
+    "time_window_hours": 24
+  },
+  "optimization_status": "optimal",
+  "timestamp": "20251229_001050"
+}

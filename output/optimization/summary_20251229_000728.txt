@@ -1,0 +1,25 @@
+============================================================
+PORT RESOURCE OPTIMIZATION SUMMARY
+============================================================
+
+Optimization Status: optimal
+Timestamp: 20251229_000728
+
+BEFORE OPTIMIZATION:
+  Average Delay Risk: 0.205
+  High Risk Windows: 0
+  Average Yard Utilization: 70.64%
+  Average Truck Wait: 47.20 min
+
+AFTER OPTIMIZATION:
+  Average Delay Risk: 0.234
+  High Risk Windows: 0
+  Average Yard Utilization: 79.65%
+  Average Truck Wait: 42.48 min
+  Total Cranes Used: 276
+
+IMPROVEMENTS:
+  Delay Risk Reduction: -14.17%
+  High Risk Windows Reduced: 0
+  Yard Utilization Improvement: -12.76%
+  Truck Wait Improvement: 10.00%
